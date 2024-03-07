@@ -2,10 +2,15 @@ import React from "react";
 import Particles from "react-tsparticles";
 
 function Particle() {
+  
   return (
+
     <Particles
+
       id="tsparticles"
+
       params={{
+
         particles: {
           number: {
             value: 160,
@@ -33,6 +38,7 @@ function Particle() {
             },
           },
         },
+
         interactivity: {
           events: {
             onclick: {
